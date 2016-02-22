@@ -1,0 +1,26 @@
+body {
+  width: 300px;
+  font-size: 14px;
+}
+ul {
+  list-style: none;
+  padding-left: 1em;
+}
+li {
+  margin: 3px 0;
+}
+li.H2 {
+  padding-left: 1em;
+}
+li.H3 {
+  padding-left: 2em;
+}
+li.H4 {
+  padding-left: 3em;
+}
+li.H5 {
+  padding-left: 4em;
+}
+li.H6 {
+  padding-left: 5em;
+}
