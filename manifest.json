@@ -7,6 +7,14 @@
     "default_icon": "icon_19.png",
     "default_popup": "popup.html"
   },
-  
-  "permissions": ["http://*/*", "https://*/*"]
+
+  "permissions": ["http://*/*", "https://*/*"],
+
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": [ "jquery-1.12.0.min.js",
+            "content.js"
+    ]
+  }]
+
 }
